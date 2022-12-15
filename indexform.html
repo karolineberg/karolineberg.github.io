@@ -9,17 +9,115 @@
 
 
     <style>
-        body {
+         header {
+            Padding: 20px 50px 300px 20px;
+            background-image: url("background.jpg");
+            background-size: cover;
+            
+        }
+
+
+        .navbar-brand {
+            color: white;
+            font-size: 21pt;
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            font-family: 'Lato', sans-serif;
+            text-transform: uppercase;
+            padding: 0px 20px 0px 20px;
+            align-content: center;
+
+        }
+
+        .navbar-toggler {
+            background-color: white;
+            border: 1px solid #333;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 0 0' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+         header {
+            Padding: 20px 50px 300px 20px;
+            background-image: url("background.jpg");
+            background-size: cover;
+        }
+
+
+        .navbar-brand {
+            color: white;
+            font-size: 21pt;
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            font-family: 'Lato', sans-serif;
+            text-transform: uppercase;
+            padding: 0px 20px 0px 20px;
+            align-content: center;
+
+        }
+
+        .navbar-toggler {
+            background-color: white;
+            border: 1px solid #333;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 0 0' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+       img {
+            width: 100%;
+        }
+
+        .byod {
+            color: #e1e8ef;
+            font-family: 'Lato', sans-serif;
+            font-size: 40px;
+            text-align: center;
+            padding: 10px 10px 10px 10px;
+            margin: 110px 10px 10px 10px;
+            letter-spacing: 0.3em;
+        }
+
+        .bring {
+            margin: 0px 20px 0px 0px;
+        }
+
+        .your {
+            margin: 0px 45px 0px 0px;
+        }
+
+        .own {
+            margin: 0px 72px 0px 0px;
+        }
+
+        .denim {
+            margin: 0px 16px 0px 0px;
+        }
+
+        .bluetext {
+            color: #6e88a6;
+        }
+
+        .section{
+            padding: 10px 0px 0px 10px;
             color: #6e88a6;
         }
 
         img {
-            width: 500px;
-            height: 700px;
+            width: 100%;
+            
         }
 
         form {
-            padding: 50px 0px 0px 0px;
+            padding: 50px 200px 0px 0px;
         }
 
         .name {
@@ -70,10 +168,43 @@
 
 
 </head>
+    
+     <header>
+        <div class="container">
+
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">nouveau</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link" href="#ourstory">our story</a>
+                            <a class="nav-link" href="#shop">shop</a>
+                            <a class="nav-link" href="#byod">byod</a>
+                            <a class="nav-link" href="#connect">connect</a>
+                            <a class="nav-link" href="indexform.html">order</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="byod">
+                <P class="bring">B<span class="bluetext">RING</span></P>
+                <P class="your">Y<span class="bluetext">OUR</span></P>
+                <P class="own">O<span class="bluetext">WN </span></P>
+                <P class="denim">D<span class="bluetext">ENIM</span></P>
+            </div>
+
+        </div>
+    </header>
+
 
 <body>
 
-    <div class="container">
+    <div class="container section">
         <div class="row">
             <div class="col-12 col-md-6">
                 <img src="billboard.jpg">
