@@ -89,6 +89,107 @@
             padding: 10px 200px 10px 10px;
             font-size: 22px;
         }
+
+        .accordion-body {
+            align-content: center;
+            font-family: 'Lato', sans-serif;
+            color: black;
+            text-align: center;
+        }
+
+        .shoptext {
+            text-align: center;
+        }
+
+        .firstpage {
+            background-color: white;
+            padding: 50px 20px 60px 20px;
+        }
+
+        .secondpage {
+            background-color: #29334e;
+            color: white;
+            padding: 50px 20px 60px 20px;
+        }
+
+        .thirdpage {
+            background-color: #e1e8ef;
+            padding: 50px 20px 60px 20px;
+            color: #29334e;
+            text-align: center;
+        }
+
+        .fourthpage {
+            background-color: white;
+            text-align: center;
+            padding: 50px 20px 60px 20px;
+        }
+
+        .connect {
+            color: #6e88a6;
+        }
+
+        .heading {
+            padding: 50px 20px 0px 20px;
+        }
+
+        .link {
+            list-style-type: none;
+            margin: 0;
+            padding: 30px 0px 0px 0px;
+            text-decoration: none;
+            text-align: center;
+            color: #e1e8ef;
+        }
+
+        a:link {
+            color: #e1e8ef;
+        }
+
+        a:visited {
+            color: #e1e8ef;
+        }
+
+        a:hover {
+            color: white;
+        }
+
+        a:active {
+            color: #e1e8ef;
+        }
+
+        .igpic {
+            width: 400px;
+            height: 550px;
+        }
+
+        .fifthpage {
+            background-color: #29334e;
+            color: white;
+            font-size: 12px;
+        }
+
+        .social {
+            width: 50px;
+            height: 50px;
+            color: white;
+            padding: 0;
+            margin: 0;
+        }
+
+        .information {
+            text-align: center;
+            padding: 10px 0px 10px 0px;
+        }
+
+        .media {
+            text-align: center;
+            padding: 20px 20px 50px 50px;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
     </style>
 
 </head>
@@ -108,11 +209,11 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ms-auto">
-                            <a class="nav-link" href="#">our story</a>
-                            <a class="nav-link" href="#">shop</a>
-                            <a class="nav-link" href="#">sustainability</a>
-                            <a class="nav-link" href="#">byod</a>
-                            <a class="nav-link" href="#">connect</a>
+                            <a class="nav-link" href="#ourstory">our story</a>
+                            <a class="nav-link" href="#shop">shop</a>
+                            <a class="nav-link" href="#byod">byod</a>
+                            <a class="nav-link" href="#connect">connect</a>
+                            <a class="nav-link" href="indexform.html">order</a>
                         </div>
                     </div>
                 </div>
@@ -129,26 +230,164 @@
     </header>
 
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 rightcol"> <img class="thumb" src="tote1.jpg"></div>
-                <div class="col-12 col-md-6 leftcol">
-                    <h3>OUR STORY</h3>
-                    <div> We are a sustainable and carbon neutral denim brand that incorporates up-cycling in our practices. With the option of bringing your own denim, our customers know exactly where their tote bag is from and can confidently wear it, knowing it had no negative impact on the environment. </div>
+        <div id="ourstory" class="firstpage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 rightcol"> <img class="thumb" src="karolinewithbag.jpg"></div>
+                    <div class="col-12 col-md-6 leftcol">
+                        <h3>THE NOUVEAU STORY</h3>
+                        <div> We are a sustainable and carbon neutral denim brand that incorporates up-cycling in our practices. With the option of bringing your own denim, our customers know exactly where their tote bag is from and can confidently wear it, knowing it had no negative impact on the environment. </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Read more
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            The fashion industry today is responsible for 10% of carbon emissions which is more than aviation and shipping industries combined. Nouveau wants to be a part of an important change from fast fashion to conscious fashion. We want to make people excited about recycling their clothing. Because each totebag is made from recycled material, every single one is "one-of-a-kind". We source our materials from thrift stores and recycling donations.
+                                            <p>When you order your totebag, you get to choose between three different options. You can either order a tote made form materials we have in storage, a custom tote from denim materials you provide, or a tote made from a mix of your own denim and our materials. </p>
+                                            <p>All of our totebags are made locally and by hand, ensuring safe, sustainable and ethical practices.</p>
+                                            <img src="dontwastepotential.png">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown button
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-            </ul>
+        <div id="shop" class="secondpage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 col-md-4">
+                        <h3 class="shoptext">BRING YOUR OWN</h3>
+                        <p class="shoptext">BRING IN YOUR DENIM AND WE WILL CREATE A ONE OF A KIND TOTE BAG </p>
+                        <img src="bagondoor.jpg">
+                    </div>
+
+                    <div class="col-8 col-md-4">
+                        <h3 class="shoptext">FROM THE RACK</h3>
+                        <p class="shoptext">WE USE RECYCLED DENIM FROM OUR STORAGE FACILITIES TO CREATE A ONE OF A KIND TOTE BAG</p>
+                        <img src="scraps.jpg">
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <h3 class="shoptext">COMBINATION</h3>
+                        <p class="shoptext">YOU ONLY HAVE A SMALL AMOUNT OF DENIM? WE WILL SUPPLY WITH DENIM FROM OUR STORAGE</p>
+                        <img src="u.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <li class="link"> <a href="indexform.html">ORDER NOW</a></li>
+                    </div>
+                </div>
+            </div>
         </div>
 
+        <div id="byod" class="thirdpage">
+            <h1 class="connect">BYOD</h1>
+            <P class="connect">BRING YOUR OWN DENIM</P>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img src="cart.jpg">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h3 class="heading">MELROSE FLEA MARKET</h3>
+                        <p class="day">EVERY SUNDAY</p>
+
+                        <h3 class="heading">VENICE FLEA MARKET </h3>
+                        <p class="day">LAST SATURDAY OF THE MONTH</p>
+
+                        <h3 class="heading">DUMBO FLEA MARKET </h3>
+                        <p class="day">EVERY SATURDAY</p>
+
+                        <h3 class="heading">SEATTLE FREEMONT <br> STREET MARKET</h3>
+                        <p class="day">LAST SUNDAY OF THE MONTH</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="connect" class="fourthpage">
+            <h3>INSTAGRAM</h3>
+            <p>FOLLOW US TO SEE WHEN WE COME TO A CITY NEAR YOU! </p>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://www.instagram.com/p/CmLKLxeOF6c/?utm_source=ig_web_copy_link"> <img class="igpic" src="IMG_0824.jpg"></a>
+                    </div>
+                    <div class="col-12 col-md-4">
+
+                        <a href="https://www.instagram.com/p/CdI9oorAUUR/?utm_source=ig_web_copy_link"> <img class="igpic" src="IMG_0825.jpg"></a>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="https://www.instagram.com/p/Cc5tlg8OB5E/?utm_source=ig_web_copy_link"> <img class="igpic" src="IMG_0827.jpg"></a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
     </main>
+
+    <footer class="fifthpage">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-3 medi">
+                    <img class="social" src="instagram.png"> <img class="social" src="tiktok.png">
+                    <p>@NOUVEAUTOTE</p>
+
+
+                </div>
+
+                <div class="col-3 information">
+                    <p class="bold">Mailing Address</p>
+                    <p>123 Bond st, New York, NY 12345</p>
+
+
+                </div>
+
+                <div class="col-3 information">
+
+                    <p class="bold">Email Address</p>
+                    <p>byod@nouveau.com</p>
+
+                </div>
+
+                <div class="col-3 information">
+
+                    <p class="bold">Phone number</p>
+                    <p>323-899-4634</p>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
